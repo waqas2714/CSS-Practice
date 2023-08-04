@@ -226,6 +226,7 @@ color: white;
   height: 70%;
   border-top-right-radius:25px ;
   border-top-left-radius: 25px;
+  overflow: auto;
 }
 
 .feature{
