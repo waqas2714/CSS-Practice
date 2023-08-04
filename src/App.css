@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.big-container {
+  /* display: inline-block; */
+  background-color: rgb(255, 255, 83);
+  width: calc(30vw - 2rem);
+  height: calc(100vh - 2rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 90%,
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./assets/Big\ pic.jpg") center/cover no-repeat border-box;
+  border-radius: 25px;
+  position: relative;
+}
+
+.upper {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 10%;
+  width: 50%;
+  border-radius: 25px 25px 0px 0px;
+  position: absolute;
+  left: 5%;
+  bottom: 12%;
+  font-family: "Roboto", sans-serif;
+}
+
+.upper h1 {
+  margin-top: 1.8rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.upper p {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.lower {
+  color: white;
+  height: 10%;
+  width: 70%;
+  border-radius: 0px 25px 25px 25px;
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+  font-family: "Roboto", sans-serif;
+}
+
+.lower h1 {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.small-container {
+  /* display: inline-block; */
+  width: calc(70vw - 2rem);
+  height: calc(100vh - 2rem);
+  margin-left: 1rem;
+  border-radius: 25px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#upper-container{
+  height: 70%;
+}
+
+#one{
+  background: url("./assets/first-background.jpg") center/cover  no-repeat border-box;
+  /* height: 60%; */
+  height: 100%;
+  width: 75%;
+  border-radius: 25px;
+}
+
+.arrow-and-text{
+  width: 100%;
+  height: 10%;
+  /* background-color: yellow; */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+}
+
+.text{
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+.text h4{
+  margin: 13px 14px;
+}
+
+.text p{
+  font-weight: lighter;
+}
+
+.arrow{
+  margin-left: auto;
+}
+
+#react-arrow{
+  background-color: white;
+  border-radius: 25px;
+  height: 25px;
+  width: 25px;
+  padding: 6px;
+  margin-right : 1rem
+}
+
+#react-arrow:hover{
+  cursor: pointer;
+}
+
+.heading{
+  width: 60%;
+  margin-left: 1rem;
+}
+
+.caption{
+  margin-left: 1rem;
+  font-weight: lighter;
+}
+
+.extra-info{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+
+.extra-info:hover{
+  cursor: pointer;
+}
+
+.extra-info h1{
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+hr{
+  color: black;
+  margin-top: 30px;
+}
+
+#two{
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 90%,
+    rgba(0, 0, 0, 0.7)
+  ) ,url("./assets/sportsman.jpg") center/cover no-repeat border-box;
+  filter: brightness(150%);
+  height: 100%;
+  margin-left: 1rem;
+  width: calc(100% - 60% - 1rem);
+  border-radius: 25px;
+  color: white;
+  overflow:auto;
+}
+
+#lower-container{
+  margin-top: 1rem;
+  height: calc(100% - 70% - 1rem);
+  border-radius: 25px;
+}
+
+#three{
+  height: 100%;
+  width: 65%;
+  border-radius: 25px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 90%,
+    rgba(0, 0, 0, 0.5)
+  ),url("./assets/workout.jpg") center/cover  no-repeat border-box;
+}
+
+#third-header{
+  font-weight: bold;
+font-size: 1rem;
+margin-top: 5rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
+color: white;
+}
+
+
+#four{
+  height: 100%;
+  width: calc(100% - 65% - 1rem);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 90%,
+    rgba(0, 0, 0, 0.5)
+  ),url("./assets//four-background.jpg") center/cover no-repeat border-box;
+  border-radius: 25px;
+}
+
+.features{
+  width: 100%;
+  height: 70%;
+  border-top-right-radius:25px ;
+  border-top-left-radius: 25px;
+}
+
+.feature{
+  font-size: .9rem;
+/* background-color: rgb(219, 208, 44); */
+background:url("./assets/gold.jpg") center/cover no-repeat border-box;
+filter: brightness(90%);
+display: inline-block;
+border-radius: 25px;
+padding: 0.6rem;
+margin-left: 16px;
+margin-top: 8px;
+}
+
+.view-categories{
+  border-bottom-left-radius: 25px ;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.view-categories h4{
+  margin-left: 1rem;
+  color: white;
+}
