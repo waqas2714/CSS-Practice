@@ -92,6 +92,7 @@ body {
   height: 100%;
   width: 75%;
   border-radius: 25px;
+  overflow: auto;
 }
 
 .arrow-and-text{
@@ -217,6 +218,7 @@ color: white;
     rgba(0, 0, 0, 0.5)
   ),url("./assets//four-background.jpg") center/cover no-repeat border-box;
   border-radius: 25px;
+  overflow:hidden;
 }
 
 .features{
@@ -249,4 +251,20 @@ margin-top: 8px;
 .view-categories h4{
   margin-left: 1rem;
   color: white;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 2px; /* width of the scrollbar */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* color of the thumb */
+  border-radius: 2px; /* rounded corners for the thumb */
+}
+
+/* Style the scrollbar track when hovered */
+::-webkit-scrollbar-track:hover {
+  background-color: #ffffff; /* color of the track when hovered */
 }
