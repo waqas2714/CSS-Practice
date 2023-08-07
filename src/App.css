@@ -271,3 +271,78 @@ margin-top: 8px;
 ::-webkit-scrollbar-track:hover {
   background-color: #ffffff; /* color of the track when hovered */
 }
+
+@media (max-width: 40rem) {
+  body{
+    padding: 1rem 0px;
+  }
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0px auto;
+  }
+
+  .big-container{
+    width: 98%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .upper,
+  .lower{
+    background-color: black;
+  }
+
+  .small-container{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #upper-container,
+  #lower-container{
+    flex-direction: column;
+    width: 100vw;
+    height: fit-content;
+  }
+
+  #one,
+  #two,
+  #three,
+  #four{
+    width: 100%;
+    height: 100vh;
+    margin-top: 1rem;
+  }
+
+  #one{
+    height: 90vh;
+  }
+
+  #two{
+    margin-left: 0px;
+  }
+
+  #three{
+    height: 40vh;
+  }
+
+  #four{
+    margin-left: 0px;
+    height: 40vh;
+  }
+
+  #third-header{
+    margin-top: 50%;
+  }
+
+  .feature{
+    padding: 1.2rem;
+  }
+}
