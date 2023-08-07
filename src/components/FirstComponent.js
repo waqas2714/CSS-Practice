@@ -2,6 +2,7 @@ import React from "react";
 import { BsArrowUpRight, BsArrowRight } from "react-icons/bs";
 
 const FirstComponent = () => {
+
   return (
     <div id="one">
       <div className="arrow-and-text">

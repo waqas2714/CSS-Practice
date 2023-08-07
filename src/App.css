@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 
+
 body {
   margin: 0;
   padding: 1rem;
@@ -277,11 +278,37 @@ margin-top: 8px;
     padding: 1rem 0px;
   }
 
+  .none{
+    display: none;
+  }
+
+  .compressed{
+    width: 100%;
+    height: 10vh;
+    /* background-color: #000080; */
+    background-color:  #008080;
+    /* background-color: #FFA500; */
+    /* background-color: #B87333; */
+    color: white;
+    border-radius: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    width: 98%;
+  }
+
+  .no-bottom-radius{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+  }
+
   .container{
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    margin: 0px auto;
   }
 
   .big-container{
@@ -290,7 +317,9 @@ margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /* margin-top: 1rem; */
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   .upper,
@@ -310,6 +339,7 @@ margin-top: 8px;
     flex-direction: column;
     width: 100vw;
     height: fit-content;
+    margin-top: 0px;
   }
 
   #one,
@@ -318,24 +348,31 @@ margin-top: 8px;
   #four{
     width: 100%;
     height: 100vh;
-    margin-top: 1rem;
   }
 
   #one{
     height: 90vh;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   #two{
     margin-left: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   #three{
     height: 40vh;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   #four{
     margin-left: 0px;
     height: 40vh;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   #third-header{

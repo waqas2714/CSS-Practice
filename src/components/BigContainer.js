@@ -1,8 +1,9 @@
 import React from "react";
 
-const BigContainer = () => {
+const BigContainer = ({compress}) => {
+
   return (
-    <div className="big-container">
+    <div className={compress ? 'none' :  "big-container"} >
       <div className="upper">
         <h1 style={{ display: "inline-block" }}>Category.</h1>
         <p style={{ display: "inline-block", marginLeft: "5px" }}>Fitness</p>
