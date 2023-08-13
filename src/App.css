@@ -272,7 +272,9 @@ margin-top: 8px;
 ::-webkit-scrollbar-track:hover {
   background-color: #ffffff; /* color of the track when hovered */
 }
-<<<<<<< HEAD
+
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
 
 @media (max-width: 40rem) {
   body{
@@ -383,6 +385,10 @@ margin-top: 8px;
   .feature{
     padding: 1.2rem;
   }
+  
 }
+/* 
 =======
 >>>>>>> parent of 7074024 (Responsive Desgins Added)
+=======
+>>>>>>> parent of 7074024 (Responsive Desgins Added) */
